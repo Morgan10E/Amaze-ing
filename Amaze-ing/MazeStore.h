@@ -10,7 +10,7 @@
 
 @interface MazeStore : NSObject
 
-@property (nonatomic, strong) NSArray *mazes;
+@property (nonatomic, strong) NSMutableArray *mazes;
 
 +(MazeStore *) sharedStore;
 
