@@ -8,6 +8,7 @@
 
 #import "MLTAppDelegate.h"
 #import "MazeViewController.h"
+#import "TitleScreenViewController.h"
 
 @implementation MLTAppDelegate
 
@@ -16,9 +17,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    MazeViewController *mvc = [[MazeViewController alloc] init];
+    TitleScreenViewController *tsvc = [[TitleScreenViewController alloc] initWithNibName:@"TitleScreenViewController" bundle:nil];
     
-    [[self window] setRootViewController: mvc];
+    UINavigationController *headController = [[UINavigationController alloc] initWithRootViewController:tsvc];
+    [headController setNavigationBarHidden:YES];
+    
+    
+    
+    [[self window] setRootViewController: headController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

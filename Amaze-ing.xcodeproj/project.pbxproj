@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840F05FC179EF5BF0070C328 /* TitleScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F05FB179EF5BF0070C328 /* TitleScreenViewController.m */; };
+		840F05FE179EFC4E0070C328 /* TitleScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840F05F9179EF4870070C328 /* TitleScreenViewController.xib */; };
+		840F0601179F01530070C328 /* TouchDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0600179F01530070C328 /* TouchDrawView.m */; };
+		840F0604179F015B0070C328 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0603179F015B0070C328 /* Line.m */; };
+		840F0607179F01E30070C328 /* UIColor+Extract.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0606179F01E30070C328 /* UIColor+Extract.m */; };
+		840F060A179F030A0070C328 /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F0609179F02160070C328 /* TouchViewController.m */; };
 		C4E2CFBE179DA1B300EE88AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2CFBD179DA1B300EE88AE /* Foundation.framework */; };
 		C4E2CFC0179DA1B300EE88AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2CFBF179DA1B300EE88AE /* CoreGraphics.framework */; };
 		C4E2CFC2179DA1B300EE88AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2CFC1179DA1B300EE88AE /* UIKit.framework */; };
@@ -36,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		840F05F9179EF4870070C328 /* TitleScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TitleScreenViewController.xib; path = ../TitleScreenViewController.xib; sourceTree = "<group>"; };
+		840F05FA179EF5BF0070C328 /* TitleScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScreenViewController.h; path = ../TitleScreenViewController.h; sourceTree = "<group>"; };
+		840F05FB179EF5BF0070C328 /* TitleScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScreenViewController.m; path = ../TitleScreenViewController.m; sourceTree = "<group>"; };
+		840F05FF179F01530070C328 /* TouchDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDrawView.h; sourceTree = "<group>"; };
+		840F0600179F01530070C328 /* TouchDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDrawView.m; sourceTree = "<group>"; };
+		840F0602179F015B0070C328 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		840F0603179F015B0070C328 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		840F0605179F01E30070C328 /* UIColor+Extract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extract.h"; sourceTree = "<group>"; };
+		840F0606179F01E30070C328 /* UIColor+Extract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extract.m"; sourceTree = "<group>"; };
+		840F0608179F02160070C328 /* TouchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		840F0609179F02160070C328 /* TouchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 		C4E2CFBA179DA1B300EE88AE /* Amaze-ing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amaze-ing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E2CFBD179DA1B300EE88AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C4E2CFBF179DA1B300EE88AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +136,9 @@
 		C4E2CFC3179DA1B300EE88AE /* Amaze-ing */ = {
 			isa = PBXGroup;
 			children = (
+				840F05FA179EF5BF0070C328 /* TitleScreenViewController.h */,
+				840F05FB179EF5BF0070C328 /* TitleScreenViewController.m */,
+				840F05F9179EF4870070C328 /* TitleScreenViewController.xib */,
 				C4E2CFCC179DA1B300EE88AE /* MLTAppDelegate.h */,
 				C4E2CFCD179DA1B300EE88AE /* MLTAppDelegate.m */,
 				C4E2CFEF179DA21300EE88AE /* MazeViewController.h */,
@@ -129,6 +149,14 @@
 				C4E2CFF3179DA40D00EE88AE /* Wall.m */,
 				C4E2CFEC179DA20200EE88AE /* MazeStore.h */,
 				C4E2CFED179DA20200EE88AE /* MazeStore.m */,
+				840F05FF179F01530070C328 /* TouchDrawView.h */,
+				840F0600179F01530070C328 /* TouchDrawView.m */,
+				840F0608179F02160070C328 /* TouchViewController.h */,
+				840F0609179F02160070C328 /* TouchViewController.m */,
+				840F0602179F015B0070C328 /* Line.h */,
+				840F0603179F015B0070C328 /* Line.m */,
+				840F0605179F01E30070C328 /* UIColor+Extract.h */,
+				840F0606179F01E30070C328 /* UIColor+Extract.m */,
 				C4E2CFCF179DA1B300EE88AE /* Images.xcassets */,
 				C4E2CFC4179DA1B300EE88AE /* Supporting Files */,
 			);
@@ -241,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4E2CFC8179DA1B300EE88AE /* InfoPlist.strings in Resources */,
+				840F05FE179EFC4E0070C328 /* TitleScreenViewController.xib in Resources */,
 				C4E2CFD0179DA1B300EE88AE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,11 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840F05FC179EF5BF0070C328 /* TitleScreenViewController.m in Sources */,
+				840F0604179F015B0070C328 /* Line.m in Sources */,
+				840F060A179F030A0070C328 /* TouchViewController.m in Sources */,
 				C4E2CFF4179DA40D00EE88AE /* Wall.m in Sources */,
+				840F0607179F01E30070C328 /* UIColor+Extract.m in Sources */,
 				C4E2CFF9179DB17900EE88AE /* MazeView.m in Sources */,
 				C4E2CFCE179DA1B300EE88AE /* MLTAppDelegate.m in Sources */,
 				C4E2CFCA179DA1B300EE88AE /* main.m in Sources */,
 				C4E2CFEE179DA20200EE88AE /* MazeStore.m in Sources */,
+				840F0601179F01530070C328 /* TouchDrawView.m in Sources */,
 				C4E2CFF1179DA21300EE88AE /* MazeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +496,7 @@
 				C4E2CFE8179DA1B300EE88AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4E2CFE9179DA1B300EE88AE /* Build configuration list for PBXNativeTarget "Amaze-ingTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +505,7 @@
 				C4E2CFEB179DA1B300EE88AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

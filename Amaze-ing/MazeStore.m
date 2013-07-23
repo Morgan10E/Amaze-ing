@@ -11,7 +11,7 @@
 
 @interface MazeStore()
 {
-    NSArray *_mazes;
+    NSMutableArray *_mazes;
 }
 @end
 
@@ -131,7 +131,7 @@
         
         NSArray *maze3 = @[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o];
         
-        _mazes = @[maze0, maze1, maze2, maze3];
+        _mazes = [NSMutableArray arrayWithObjects:maze0,maze1,maze2,maze3, nil];
     }
     return self;
 }
