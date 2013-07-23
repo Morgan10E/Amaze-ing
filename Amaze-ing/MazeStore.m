@@ -112,7 +112,26 @@
                            ww26,ww27,ww28,ww29,ww30];
         
         
-        _mazes = @[maze0, maze1, maze2];
+        Wall *a = [[Wall alloc] initWithBegin:CGPointMake(690.000000, 250.000000) andEnd: CGPointMake(1.000000, 250.000000)];
+        Wall *b = [[Wall alloc] initWithBegin:CGPointMake(71.000000, 317.000000) andEnd: CGPointMake(767.000000, 317.000000)];
+        Wall *c = [[Wall alloc] initWithBegin:CGPointMake(690.000000, 380.000000) andEnd: CGPointMake(1.000000, 380.000000)];
+        Wall *d = [[Wall alloc] initWithBegin:CGPointMake(90.000000, 450.000000) andEnd: CGPointMake(767.000000, 450.000000)];
+        Wall *e = [[Wall alloc] initWithBegin:CGPointMake(690.000000, 580.000000) andEnd: CGPointMake(1.000000, 580.000000)];
+        Wall *f = [[Wall alloc] initWithBegin:CGPointMake(91.000000, 450.000000) andEnd: CGPointMake(90.000000, 518.000000)];
+        Wall *g = [[Wall alloc] initWithBegin:CGPointMake(182.000000, 507.000000) andEnd: CGPointMake(183.000000, 580.000000)];
+        Wall *h = [[Wall alloc] initWithBegin:CGPointMake(270.000000, 458.000000) andEnd: CGPointMake(270.000000, 518.000000)];
+        Wall *i = [[Wall alloc] initWithBegin:CGPointMake(359.000000, 507.000000) andEnd: CGPointMake(360.000000, 580.000000)];
+        Wall *j = [[Wall alloc] initWithBegin:CGPointMake(450.000000, 463.000000) andEnd: CGPointMake(450.000000, 524.000000)];
+        Wall *k = [[Wall alloc] initWithBegin:CGPointMake(545.000000, 512.000000) andEnd: CGPointMake(545.000000, 580.000000)];
+        Wall *l = [[Wall alloc] initWithBegin:CGPointMake(630.000000, 462.000000) andEnd: CGPointMake(630.000000, 523.000000)];
+        Wall *m = [[Wall alloc] initWithBegin:CGPointMake(690.000000, 580.000000) andEnd: CGPointMake(717.000000, 528.000000)];
+        Wall *n = [[Wall alloc] initWithBegin:CGPointMake(78.000000, 654.000000) andEnd: CGPointMake(767.000000, 651.000000)];
+        Wall *o = [[Wall alloc] initWithBegin:CGPointMake(699.000000, 732.000000) andEnd: CGPointMake(0, 732.000000)];
+
+        
+        NSArray *maze3 = @[a,b,c,d,e,f,g,h,i,j,k,l,m,n,o];
+        
+        _mazes = @[maze0, maze1, maze2, maze3];
     }
     return self;
 }
