@@ -19,6 +19,10 @@
 		C4E2CFD9179DA1B300EE88AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2CFC1179DA1B300EE88AE /* UIKit.framework */; };
 		C4E2CFE1179DA1B300EE88AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4E2CFDF179DA1B300EE88AE /* InfoPlist.strings */; };
 		C4E2CFE3179DA1B300EE88AE /* Amaze_ingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2CFE2179DA1B300EE88AE /* Amaze_ingTests.m */; };
+		C4E2CFEE179DA20200EE88AE /* MazeStore.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2CFED179DA20200EE88AE /* MazeStore.m */; };
+		C4E2CFF1179DA21300EE88AE /* MazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2CFF0179DA21300EE88AE /* MazeViewController.m */; };
+		C4E2CFF4179DA40D00EE88AE /* Wall.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2CFF3179DA40D00EE88AE /* Wall.m */; };
+		C4E2CFF9179DB17900EE88AE /* MazeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E2CFF8179DB17900EE88AE /* MazeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		C4E2CFDE179DA1B300EE88AE /* Amaze-ingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Amaze-ingTests-Info.plist"; sourceTree = "<group>"; };
 		C4E2CFE0179DA1B300EE88AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4E2CFE2179DA1B300EE88AE /* Amaze_ingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Amaze_ingTests.m; sourceTree = "<group>"; };
+		C4E2CFEC179DA20200EE88AE /* MazeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeStore.h; sourceTree = "<group>"; };
+		C4E2CFED179DA20200EE88AE /* MazeStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeStore.m; sourceTree = "<group>"; };
+		C4E2CFEF179DA21300EE88AE /* MazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeViewController.h; sourceTree = "<group>"; };
+		C4E2CFF0179DA21300EE88AE /* MazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeViewController.m; sourceTree = "<group>"; };
+		C4E2CFF2179DA40D00EE88AE /* Wall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wall.h; sourceTree = "<group>"; };
+		C4E2CFF3179DA40D00EE88AE /* Wall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wall.m; sourceTree = "<group>"; };
+		C4E2CFF7179DB17900EE88AE /* MazeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazeView.h; sourceTree = "<group>"; };
+		C4E2CFF8179DB17900EE88AE /* MazeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,14 @@
 			children = (
 				C4E2CFCC179DA1B300EE88AE /* MLTAppDelegate.h */,
 				C4E2CFCD179DA1B300EE88AE /* MLTAppDelegate.m */,
+				C4E2CFEF179DA21300EE88AE /* MazeViewController.h */,
+				C4E2CFF0179DA21300EE88AE /* MazeViewController.m */,
+				C4E2CFF7179DB17900EE88AE /* MazeView.h */,
+				C4E2CFF8179DB17900EE88AE /* MazeView.m */,
+				C4E2CFF2179DA40D00EE88AE /* Wall.h */,
+				C4E2CFF3179DA40D00EE88AE /* Wall.m */,
+				C4E2CFEC179DA20200EE88AE /* MazeStore.h */,
+				C4E2CFED179DA20200EE88AE /* MazeStore.m */,
 				C4E2CFCF179DA1B300EE88AE /* Images.xcassets */,
 				C4E2CFC4179DA1B300EE88AE /* Supporting Files */,
 			);
@@ -240,8 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E2CFF4179DA40D00EE88AE /* Wall.m in Sources */,
+				C4E2CFF9179DB17900EE88AE /* MazeView.m in Sources */,
 				C4E2CFCE179DA1B300EE88AE /* MLTAppDelegate.m in Sources */,
 				C4E2CFCA179DA1B300EE88AE /* main.m in Sources */,
+				C4E2CFEE179DA20200EE88AE /* MazeStore.m in Sources */,
+				C4E2CFF1179DA21300EE88AE /* MazeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
